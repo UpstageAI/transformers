@@ -324,7 +324,7 @@ if __name__ == "__main__":
 
     setup(
         name="transformers",
-        version="5.14.1",  # expected format is one of x.y.z.dev0, or x.y.z.rc1 or x.y.z (no to dashes, yes to dots)
+        version="5.14.1+solaropen2",  # expected format is one of x.y.z.dev0, x.y.z.rc1, x.y.z, or x.y.z+local
         author="The Hugging Face team (past and future) with the help of all our contributors (https://github.com/huggingface/transformers/graphs/contributors)",
         author_email="transformers@huggingface.co",
         description="Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
